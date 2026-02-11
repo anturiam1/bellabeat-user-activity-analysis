@@ -93,4 +93,4 @@ images/ – Charts and visual outputs
 Author
 
 Andrés Mauricio Ruiz
-Junior Data Analyst
+Finance Specialist Junior Data Analyst
