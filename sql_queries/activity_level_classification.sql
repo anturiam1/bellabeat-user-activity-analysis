@@ -1,6 +1,7 @@
 /*
 Analysis: Daily Activity Levels
 Description: Classifies daily activity levels based on total daily steps.
+Note: Output labels are in Spanish to match de final report and R analysis files.
 Dataset: dailyActivity_merged
 Tool: Google BigQuery
 Output: Used to generate Figure 1 in the report
