@@ -31,4 +31,5 @@ plot4
 ggsave("../images/figure4_activity_vs_sleep.png",
        plot = plot4,
        width = 8,
-       height = 5)
+       height = 5,
+       dpi = 300)
