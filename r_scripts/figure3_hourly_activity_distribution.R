@@ -25,4 +25,7 @@ ggplot(hourly_weektype,
     color = "Tipo de día"
   ) +
   theme_minimal()
-
+ggsave("../images/figure2_daily_activity_time_distribution.png",
+       plot = plot3,
+       width = 8,
+       height = 5)
