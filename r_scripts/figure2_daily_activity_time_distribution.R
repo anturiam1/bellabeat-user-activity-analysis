@@ -2,7 +2,7 @@
 # Analysis: Daily Activity Time Distribution
 # Description: Generates visualization for Figure 2
 # Dataset: comparacion_actividad.csv
-# Tool: R (ggplot2)
+# Tool: R (tidyverse, ggplot2)
 # Output: Figure 2
 
 # Libraries
@@ -27,7 +27,7 @@ activity_minutes_long <- activity_minutes_long %>%
   ))
 
 
-ggplot(activity_minutes_long,
+plot2 <- ggplot(activity_minutes_long,
        aes(x = reorder(tipo_actividad_label, -minutos_promedio),
            y = minutos_promedio,
            fill = tipo_actividad_label)) +
@@ -39,6 +39,9 @@ ggplot(activity_minutes_long,
   ) +
   theme_minimal() +
   theme(legend.position = "none")
+
+plot2
+
 ggsave("../images/figure2_daily_activity_time_distribution.png",
        plot = plot2,
        width = 8,
