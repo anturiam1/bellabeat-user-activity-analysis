@@ -2,7 +2,7 @@
 # Analysis: Daily Activity Levels
 # Description: Generates visualization for Figure 1
 # Dataset: nivel_actividad.csv
-# Tool: R (ggplot2)
+# Tool: R (tidyverse, ggplot2)
 # Output: Figure 1
 
 # Libraries
@@ -11,7 +11,7 @@ library(ggplot2)
 
 activity_level <- read_csv("../data/nivel_actividad.csv")
 
-ggplot(activity_level, aes(x = nivel_actividad, y = dias, fill = nivel_actividad)) +
+plot1 <- ggplot(activity_level, aes(x = nivel_actividad, y = dias, fill = nivel_actividad)) +
   geom_bar(stat = "identity") +
   scale_fill_manual(values = c(
     "Sedentario" = "#E07A5F",
