@@ -5,6 +5,8 @@
 # Tool: R (tidyverse)
 # Output: Figure 4
 
+library(tidyverse)
+
 activity_sleep <- read_csv("..data/actividad_y_sueño.csv")
 
 plot4 <- ggplot(activity_sleep, aes(x = TotalSteps, y = total_minutes_asleep)) +
