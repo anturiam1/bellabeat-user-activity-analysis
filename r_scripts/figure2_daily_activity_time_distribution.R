@@ -43,4 +43,5 @@ plot2
 ggsave("../images/figure2_daily_activity_time_distribution.png",
        plot = plot2,
        width = 8,
-       height = 5)
+       height = 5,
+       dpi = 300)
