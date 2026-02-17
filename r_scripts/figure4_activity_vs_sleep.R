@@ -1,6 +1,6 @@
 # Project: Bellabeat Case Study
-# Analysis: Hourly Activity Patterns by Day Type
-# Description: Generates visualization for Figure 3
+# Analysis: Activity and Sleep Relationship
+# Description: Generates visualization for Figure 4
 # Dataset: semana_vs_fin_de_semana.csv
 # Tool: R (tidyverse)
 # Output: Figure 3
