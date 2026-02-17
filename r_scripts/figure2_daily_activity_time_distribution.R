@@ -1,7 +1,7 @@
 # Project: Bellabeat Case Study
 # Analysis: Daily Activity Time Distribution
 # Description: Generates visualization for Figure 1
-# Dataset: nivel_actividad.csv
+# Dataset: comparacion_actividad.csv
 # Tool: R (ggplot2)
 # Output: Figure 2
 
