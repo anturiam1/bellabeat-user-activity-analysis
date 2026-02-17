@@ -5,8 +5,9 @@
 # Tool: R (ggplot2)
 # Output: Figure 2
 
-library(readr)
+# Libraries
 library(tidyverse)
+library(ggplot2)
 
 activity_minutes <- read_csv("../data/comparacion_actividad.csv")
 
