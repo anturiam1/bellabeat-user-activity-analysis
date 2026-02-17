@@ -2,12 +2,10 @@
 # Analysis: Daily Activity Levels
 # Description: Generates visualization for Figure 1
 # Dataset: nivel_actividad.csv
-# Tool: R (tidyverse, ggplot2)
+# Tool: R (tidyverse)
 # Output: Figure 1
 
-# Libraries
 library(tidyverse)
-library(ggplot2)
 
 activity_level <- read_csv("../data/nivel_actividad.csv")
 
