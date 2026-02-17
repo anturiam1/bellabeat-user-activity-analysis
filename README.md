@@ -1,4 +1,5 @@
 # Bellabeat User Activity Analysis
+
 Project Highlights
 
 Performed exploratory analysis of smart device usage data using SQL (BigQuery) and R (tidyverse)
@@ -11,8 +12,7 @@ Generated business-oriented recommendations to support personalization strategie
 
 This project demonstrates the ability to transform raw data into structured insights aligned with business decision-making.
 
-Business Context
-Bellabeat is a wellness technology company focused on smart devices designed to support women's health.
+Business ContextBellabeat is a wellness technology company focused on smart devices designed to support women's health.
 This project analyzes smart device usage data to identify behavior patterns that can support product and marketing decisions for the Bellabeat Time smartwatch.
 
 Objective
