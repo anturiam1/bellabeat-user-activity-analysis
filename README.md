@@ -1,4 +1,4 @@
-#Bellabeat User Activity Analysis
+# Bellabeat User Activity Analysis
 Project Highlights
 
 Performed exploratory analysis of smart device usage data using SQL (BigQuery) and R (tidyverse)
