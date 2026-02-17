@@ -2,12 +2,10 @@
 # Analysis: Daily Activity Time Distribution
 # Description: Generates visualization for Figure 2
 # Dataset: comparacion_actividad.csv
-# Tool: R (tidyverse, ggplot2)
+# Tool: R (tidyverse)
 # Output: Figure 2
 
-# Libraries
 library(tidyverse)
-library(ggplot2)
 
 activity_minutes <- read_csv("../data/comparacion_actividad.csv")
 
