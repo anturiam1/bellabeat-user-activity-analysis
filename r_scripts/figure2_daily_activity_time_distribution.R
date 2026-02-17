@@ -39,6 +39,6 @@ ggplot(activity_minutes_long,
   theme_minimal() +
   theme(legend.position = "none")
 ggsave("../images/figure2_daily_activity_time_distribution.png",
-      plot= plot2
+       plot = plot2
        width = 8,
        height = 5)
