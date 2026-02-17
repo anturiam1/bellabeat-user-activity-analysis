@@ -29,4 +29,5 @@ plot3
 ggsave("../images/figure3_hourly_activity_distribution.png",
        plot = plot3,
        width = 8,
-       height = 5)
+       height = 5,
+       dpi = 300)
