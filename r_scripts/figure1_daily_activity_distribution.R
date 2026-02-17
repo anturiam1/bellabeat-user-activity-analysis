@@ -25,6 +25,9 @@ plot1 <- ggplot(activity_level, aes(x = nivel_actividad, y = dias, fill = nivel_
   ) +
   theme_minimal() +
   guides(fill = "none")
+
+plot1
+
 ggsave("../images/figure1_daily_activity_distribution.png",
        plot = plot1,
        width = 8,
