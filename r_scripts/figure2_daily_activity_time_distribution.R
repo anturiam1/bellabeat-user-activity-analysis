@@ -24,7 +24,6 @@ activity_minutes_long <- activity_minutes_long %>%
     tipo_actividad == "minutos_muy_activos_promedio" ~ "Muy activo"
   ))
 
-
 plot2 <- ggplot(activity_minutes_long,
        aes(x = reorder(tipo_actividad_label, -minutos_promedio),
            y = minutos_promedio,
