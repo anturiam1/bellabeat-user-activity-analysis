@@ -1,12 +1,14 @@
-# Project: Bellabeat 
+# Project: Bellabeat Case Study
 # Analysis: Daily Activity Levels
 # Description: Generates visualization for Figure 1
+# Dataset: nivel_actividad.csv
+# Tool: R (ggplot2)
+# Output: Figure 1
 
 library(readr)
 library(ggplot2)
 
 activity_level <- read_csv("../data/nivel_actividad.csv")
-
 
 ggplot(activity_level, aes(x = nivel_actividad, y = dias, fill = nivel_actividad)) +
   geom_bar(stat = "identity") +
