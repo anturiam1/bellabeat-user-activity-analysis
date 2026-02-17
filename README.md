@@ -1,8 +1,17 @@
-# bellabeat-user-activity-analysis
-Exploratory analysis of smart device usage data using SQL and R to identify activity and sleep behavior patterns
-Bellabeat Case Study – User Activity Analysis
-Business Context
+Bellabeat User Activity Analysis
+Project Highlights
 
+Performed exploratory analysis of smart device usage data using SQL (BigQuery) and R (tidyverse)
+
+Identified behavioral patterns in daily activity, sedentary time, hourly trends, and sleep duration
+
+Found that most users exhibit predominantly light activity levels and structured weekday behavior patterns
+
+Generated business-oriented recommendations to support personalization strategies and user engagement initiatives
+
+This project demonstrates the ability to transform raw data into structured insights aligned with business decision-making.
+
+Business Context
 Bellabeat is a wellness technology company focused on smart devices designed to support women's health.
 This project analyzes smart device usage data to identify behavior patterns that can support product and marketing decisions for the Bellabeat Time smartwatch.
 
