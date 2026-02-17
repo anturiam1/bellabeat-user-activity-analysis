@@ -1,14 +1,11 @@
 # Project: Bellabeat Case Study
 # Analysis: Activity and Sleep Relationship
 # Description: Generates visualization for Figure 4
-# Dataset: semana_vs_fin_de_semana.csv
+# Dataset: actividad_y_sueño.csv
 # Tool: R (tidyverse)
-# Output: Figure 3
+# Output: Figure 4
 
-
-
-
-
+activity_sleep <- read_csv("..data/actividad_y_sueño.csv")
 
 
 ggplot(activity_sleep, aes(x = TotalSteps, y = total_minutes_asleep)) +
