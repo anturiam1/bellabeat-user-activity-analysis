@@ -1,7 +1,9 @@
-
-
-
-
+# Project: Bellabeat Case Study
+# Analysis: Daily Activity Time Distribution
+# Description: Generates visualization for Figure 3
+# Dataset: comparacion_actividad.csv
+# Tool: R (ggplot2)
+# Output: Figure 3
 
 # Libraries
 library(tidyverse)
