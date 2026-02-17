@@ -5,7 +5,7 @@
 # Tool: R (ggplot2)
 # Output: Figure 1
 
-library(readr)
+library(tidyverse)
 library(ggplot2)
 
 activity_level <- read_csv("../data/nivel_actividad.csv")
@@ -24,3 +24,7 @@ ggplot(activity_level, aes(x = nivel_actividad, y = dias, fill = nivel_actividad
   ) +
   theme_minimal() +
   guides(fill = "none")
+ggsave("../images/figure1_daily_activity_distribution.png",
+       plot = plot1,
+       width = 8,
+       height = 5)
