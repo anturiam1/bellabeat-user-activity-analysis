@@ -5,7 +5,6 @@
 # Tool: R (ggplot2)
 # Output: Figure 2
 
-
 library(readr)
 library(tidyverse)
 
