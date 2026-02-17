@@ -1,5 +1,5 @@
 # Project: Bellabeat Case Study
-# Analysis: Daily Activity Time Distribution
+# Analysis:  Hourly Activity Patterns by Day Type
 # Description: Generates visualization for Figure 3
 # Dataset: comparacion_actividad.csv
 # Tool: R (ggplot2)
