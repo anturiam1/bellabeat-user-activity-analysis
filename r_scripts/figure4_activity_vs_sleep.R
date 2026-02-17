@@ -8,7 +8,7 @@
 activity_sleep <- read_csv("..data/actividad_y_sueño.csv")
 
 
-ggplot(activity_sleep, aes(x = TotalSteps, y = total_minutes_asleep)) +
+plot4 <- ggplot(activity_sleep, aes(x = TotalSteps, y = total_minutes_asleep)) +
   geom_point(alpha = 0.4, size = 2) +
   geom_smooth(method = "lm", se = FALSE) +
   labs(
@@ -25,3 +25,10 @@ ggplot(activity_sleep, aes(x = TotalSteps, y = total_minutes_asleep)) +
     size = 4
   ) +
   theme_minimal()
+
+plot4
+
+ggsave("../images/figure4_activity_vs_sleep.png",
+       plot = plot4,
+       width = 8,
+       height = 5)
