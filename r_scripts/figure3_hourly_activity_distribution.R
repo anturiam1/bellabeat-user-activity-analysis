@@ -1,7 +1,7 @@
 # Project: Bellabeat Case Study
 # Analysis: Hourly Activity Patterns by Day Type
 # Description: Generates visualization for Figure 3
-# Dataset: comparacion_actividad.csv
+# Dataset: semana_vs_fin_de_semana.csv
 # Tool: R (ggplot2)
 # Output: Figure 3
 
@@ -9,9 +9,9 @@
 library(tidyverse)
 library(ggplot2)
 
-hourly_weektype <- read_csv("~/Documents/bellabeat_project/semana_vs_fin_de_semana.csv")
+hourly_weektype <- read_csv("..data/semana_vs_fin_de_semana.csv")
 
-ggplot(hourly_weektype,
+plot3 <- ggplot(hourly_weektype,
        aes(x = hora,
            y = avg_steps,
            color = tipo_dia)) +
@@ -25,7 +25,10 @@ ggplot(hourly_weektype,
     color = "Tipo de día"
   ) +
   theme_minimal()
-ggsave("../images/figure2_daily_activity_time_distribution.png",
+
+plot3
+
+ggsave("../images/figure3_hourly_activity_distribution.png",
        plot = plot3,
        width = 8,
        height = 5)
