@@ -2,12 +2,10 @@
 # Analysis: Hourly Activity Patterns by Day Type
 # Description: Generates visualization for Figure 3
 # Dataset: semana_vs_fin_de_semana.csv
-# Tool: R (tidyverse, ggplot2)
+# Tool: R (tidyverse)
 # Output: Figure 3
 
-# Libraries
 library(tidyverse)
-library(ggplot2)
 
 hourly_weektype <- read_csv("../data/semana_vs_fin_de_semana.csv")
 
