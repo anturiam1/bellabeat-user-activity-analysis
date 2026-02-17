@@ -4,9 +4,7 @@
 
 library(readr)
 
-activity_level <- read_csv("~/Documents/bellabeat_project/nivel_actividad.csv")
-
-View(activity_level)
+activity_level <- read_csv("..data/nivel_actividad.csv")
 
 library(ggplot2)
 
