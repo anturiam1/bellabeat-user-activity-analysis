@@ -29,4 +29,5 @@ plot1
 ggsave("../images/figure1_daily_activity_distribution.png",
        plot = plot1,
        width = 8,
-       height = 5)
+       height = 5,
+       dpi = 300)
