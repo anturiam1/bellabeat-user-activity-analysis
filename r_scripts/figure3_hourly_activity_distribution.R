@@ -9,7 +9,7 @@
 library(tidyverse)
 library(ggplot2)
 
-hourly_weektype <- read_csv("..data/semana_vs_fin_de_semana.csv")
+hourly_weektype <- read_csv("../data/semana_vs_fin_de_semana.csv")
 
 plot3 <- ggplot(hourly_weektype,
        aes(x = hora,
