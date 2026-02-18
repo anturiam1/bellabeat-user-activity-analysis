@@ -1,105 +1,143 @@
-# Bellabeat User Activity Analysis
+# Fitness Tracking Data Analysis for Bellabeat's Marketing Strategy
 
-Project Highlights
+## Project Highlights
 
-Performed exploratory analysis of smart device usage data using SQL (BigQuery) and R (tidyverse)
-
-Identified behavioral patterns in daily activity, sedentary time, hourly trends, and sleep duration
-
-Found that most users exhibit predominantly light activity levels and structured weekday behavior patterns
-
-Generated business-oriented recommendations to support personalization strategies and user engagement initiatives
+- Performed exploratory analysis of smart device usage data using **SQL (BigQuery)** and **R (tidyverse)**  
+- Identified behavioral patterns in daily activity, sedentary time, hourly trends, and sleep duration  
+- Found that most users exhibit predominantly light activity levels and structured weekday behavior patterns  
+- Generated business-oriented recommendations to support personalization strategies and user engagement initiatives  
 
 This project demonstrates the ability to transform raw data into structured insights aligned with business decision-making.
 
-Business ContextBellabeat is a wellness technology company focused on smart devices designed to support women's health.
-This project analyzes smart device usage data to identify behavior patterns that can support product and marketing decisions for the Bellabeat Time smartwatch.
+---
 
-Objective
+## Business Context
+
+Bellabeat is a wellness technology company focused on smart devices designed to support women's health.
+
+This project analyzes smart device usage data to identify behavioral patterns that could support product strategy and marketing decisions for the Bellabeat Time smartwatch.
+
+---
+
+## Objective
 
 The objective of this analysis is to identify patterns in:
 
-daily activity levels
-
-sedentary behavior
-
-hourly activity trends
-
-relationship between physical activity and sleep duration
+- Daily activity levels  
+- Sedentary behavior  
+- Hourly activity trends  
+- Relationship between physical activity and sleep duration  
 
 The goal is to generate insights that can support business decision-making.
 
-Data Source
+---
 
-Dataset: Fitbit Fitness Tracker Data
-Source: Kaggle
-Author: Mobius
-Users: 35
-Year: 2016
+## Data Source
 
-This dataset is suitable for exploratory analysis but has limitations related to sample size and data recency.
+**Dataset:** Fitbit Fitness Tracker Data  
+**Source:** Kaggle  
+**Author:** Mobius  
+**Users:** 35  
+**Year:** 2016  
 
-Tools Used
+This dataset is suitable for exploratory analysis but has limitations related to:
 
-SQL (BigQuery)
+- Sample size  
+- Data recency  
+- Lack of demographic variables  
 
-R (ggplot2)
+---
 
-Spreadsheets
+## Tools Used
 
-Process
+- **SQL (BigQuery)** – data cleaning and transformation  
+- **R (tidyverse, ggplot2)** – data visualization  
+- **Spreadsheets** – initial inspection and validation  
 
-The analysis followed these steps:
+---
 
-Data cleaning and validation
+## Project Structure
 
-Duplicate removal and null checks
+Fitness Tracking Data Analysis for Bellabeat's Marketing Strategy/
+├── data/  
+├── sql_queries/  
+├── r_scripts/  
+├── images/  
+├── reports/  
+└── README.md  
 
-Data integration using SQL
+## Process
 
-Exploratory data analysis
+1. Data cleaning and validation  
+2. Duplicate removal and null checks  
+3. Data transformation using SQL  
+4. Exploratory data analysis  
+5. Data visualization in R  
+6. Business-oriented interpretation of results  
 
-Data visualization
+---
 
-Business-oriented interpretation of results
+## Key Findings
 
-Key Findings
+### Daily Activity
+A significant portion of recorded days are classified as sedentary, although moderate and active levels combined exceed sedentary time.
 
-Daily activity
-A significant number of days are classified as sedentary, although moderate and active levels combined exceed sedentary time.
+### Activity Intensity
+Most movement corresponds to light activity, with limited time spent in intense physical activity.
 
-Activity intensity
-Most of the movement corresponds to light activity, with limited time spent in intense physical activity.
-
-Temporal patterns
+### Temporal Patterns
 Users show structured activity patterns during weekdays and more flexible behavior on weekends.
 
-Activity and sleep
+### Activity and Sleep
 No strong correlation was found between daily steps and sleep duration, suggesting that sleep behavior depends on multiple factors.
 
-Business Insights
+---
 
-The results suggest opportunities to:
+## Business Insights
 
-personalize notifications based on activity level
+- Personalize notifications based on activity level  
+- Adapt reminders according to the day of the week  
+- Promote sustainable habits rather than high-performance goals  
+- Integrate activity and sleep monitoring into a holistic wellness approach  
 
-adapt reminders according to the day of the week
+---
 
-promote sustainable habits rather than high-performance goals
+## Limitations
 
-integrate activity and sleep monitoring into a holistic wellness approach
+- Small sample size (35 users)  
+- Historical dataset (2016)  
+- Limited behavioral and demographic variables  
 
-Project Files
+Conclusions should be interpreted as directional insights rather than definitive evidence.
 
-bellabeat_report.pdf – Full analysis report
+---
 
-queries.sql – SQL queries used in the analysis
+## How to Reproduce the Analysis
 
-visualizations.R – Visualization scripts
+1. Run the SQL queries located in `sql_queries/`  
+2. Export the resulting datasets to `data/`  
+3. Run the R scripts located in `r_scripts/`  
+4. Figures will be automatically saved in `images/`  
 
-images/ – Charts and visual outputs
+---
 
-Author
+## Report
 
-Andrés Mauricio Ruiz
-Finance Specialist and Data Analyst
+Full analysis and business recommendations available in:
+
+`reports/CASO PRÁCTICO BELLABEAT.pdf`
+
+---
+
+## Author
+
+**Andrés Mauricio Ruiz**  
+Finance Specialist transitioning into Data Analytics  
+
+**Skills demonstrated:**
+
+- SQL data transformation  
+- Exploratory Data Analysis  
+- Data visualization in R  
+- Business insight generation  
+- Reproducible project structuring  
