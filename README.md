@@ -115,6 +115,20 @@ Conclusions should be interpreted as directional insights rather than definitive
 
 ---
 
+## Key Visualizations
+
+### Daily Activity Distribution
+![Daily Activity Levels](images/figure1_daily_activity_distribution.png)
+
+### Activity Intensity Distribution
+![Activity Intensity](images/figure2_daily_activity_time_distribution.png)
+
+### Hourly Activity Patterns
+![Hourly Patterns](images/figure3_hourly_activity_distribution.png)
+
+### Activity vs Sleep
+![Activity vs Sleep](images/figure4_activity_vs_sleep.png)
+
 ## How to Reproduce the Analysis
 
 1. Run the SQL queries located in `sql_queries/`  
