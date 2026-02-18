@@ -1,5 +1,7 @@
 # Fitness Tracking Data Analysis to Inform Bellabeat's Marketing Strategy
 
+End-to-end data analysis project: data cleaning, transformation, visualization, and business insights.
+
 ## Project Highlights
 
 - Performed exploratory analysis of smart device usage data using **SQL (BigQuery)** and **R (tidyverse)**  
