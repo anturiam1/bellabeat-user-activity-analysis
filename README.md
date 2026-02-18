@@ -59,13 +59,17 @@ This dataset is suitable for exploratory analysis but has limitations related to
 ## Project Structure
 
 bellabeat-user-activity-analysis/
-│
-├── data/ # Clean datasets used in the analysis
-├── sql_queries/ # BigQuery scripts
-├── r_scripts/ # R scripts for visualizations
-├── images/ # Generated charts
-├── reports/ # Final PDF report
-└── README.md## Process
+
+data/ → Clean datasets generated from SQL queries  
+sql_queries/ → Data cleaning and transformation queries  
+r_scripts/ → Visualization scripts  
+images/ → Generated charts  
+reports/ → Final report (PDF)  
+README.md → Project documentation
+
+---
+
+## Process
 
 1. Data cleaning and validation  
 2. Duplicate removal and null checks  
