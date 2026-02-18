@@ -117,6 +117,8 @@ Conclusions should be interpreted as directional insights rather than definitive
 
 ## Key Visualizations
 
+All figures were generated using reproducible R scripts located in `r_scripts/`.
+
 ### Daily Activity Distribution
 ![Daily Activity Levels](images/figure1_daily_activity_distribution.png)
 
