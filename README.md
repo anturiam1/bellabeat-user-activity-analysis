@@ -58,16 +58,14 @@ This dataset is suitable for exploratory analysis but has limitations related to
 
 ## Project Structure
 
-Fitness Tracking Data Analysis for Bellabeat's Marketing Strategy/
-|
-├── data/  
-├── sql_queries/  
-├── r_scripts/  
-├── images/  
-├── reports/  
-└── README.md  
-
-## Process
+bellabeat-user-activity-analysis/
+│
+├── data/ # Clean datasets used in the analysis
+├── sql_queries/ # BigQuery scripts
+├── r_scripts/ # R scripts for visualizations
+├── images/ # Generated charts
+├── reports/ # Final PDF report
+└── README.md## Process
 
 1. Data cleaning and validation  
 2. Duplicate removal and null checks  
