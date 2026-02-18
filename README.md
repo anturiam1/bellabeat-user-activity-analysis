@@ -143,4 +143,17 @@ Finance Specialist & Data Analyst
 - Exploratory Data Analysis  
 - Data visualization in R  
 - Business insight generation  
-- Reproducible project structuring  
+- Reproducible project structuring
+
+
+## Project Structure
+
+    bellabeat-user-activity-analysis/
+    │
+    ├── data/
+    ├── sql_queries/
+    ├── r_scripts/
+    ├── images/
+    ├── reports/
+    └── README.md
+
