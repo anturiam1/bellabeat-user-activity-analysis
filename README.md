@@ -1,6 +1,7 @@
 # Fitness Tracking Data Analysis to Inform Bellabeat's Marketing Strategy
 ### "Marketing with out data is like driving with your eyes closed".
 ### Dan Zarella
+
 End-to-end data analysis project: data cleaning, transformation, visualization, and business insights.
 
 ## Project Highlights
