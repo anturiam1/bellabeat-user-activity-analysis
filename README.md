@@ -58,14 +58,14 @@ This dataset is suitable for exploratory analysis but has limitations related to
 
 ## Project Structure
 
-bellabeat-user-activity-analysis/
-
-data/ → Clean datasets generated from SQL queries  
-sql_queries/ → Data cleaning and transformation queries  
-r_scripts/ → Visualization scripts  
-images/ → Generated charts  
-reports/ → Final report (PDF)  
-README.md → Project documentation
+    bellabeat-user-activity-analysis/
+    │
+    ├── data/
+    ├── sql_queries/
+    ├── r_scripts/
+    ├── images/
+    ├── reports/
+    └── README.md
 
 ---
 
@@ -145,15 +145,4 @@ Finance Specialist & Data Analyst
 - Business insight generation  
 - Reproducible project structuring
 
-
-## Project Structure
-
-    bellabeat-user-activity-analysis/
-    │
-    ├── data/
-    ├── sql_queries/
-    ├── r_scripts/
-    ├── images/
-    ├── reports/
-    └── README.md
 
