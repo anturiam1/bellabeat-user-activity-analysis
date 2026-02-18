@@ -138,6 +138,8 @@ All figures were generated using reproducible R scripts located in `r_scripts/`.
 3. Run the R scripts located in `r_scripts/`  
 4. Figures will be automatically saved in `images/`  
 
+Make sure working directory is set to the project root before running scripts.
+
 ---
 
 ## Report
