@@ -59,6 +59,7 @@ This dataset is suitable for exploratory analysis but has limitations related to
 ## Project Structure
 
 Fitness Tracking Data Analysis for Bellabeat's Marketing Strategy/
+|
 ├── data/  
 ├── sql_queries/  
 ├── r_scripts/  
