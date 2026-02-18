@@ -1,4 +1,4 @@
-# Fitness Tracking Data Analysis for Bellabeat's Marketing Strategy
+# Fitness Tracking Data Analysis to Inform Bellabeat's Marketing Strategy
 
 ## Project Highlights
 
@@ -15,7 +15,7 @@ This project demonstrates the ability to transform raw data into structured insi
 
 Bellabeat is a wellness technology company focused on smart devices designed to support women's health.
 
-This project analyzes smart device usage data to identify behavioral patterns that could support product strategy and marketing decisions for the Bellabeat Time smartwatch.
+This project analyzes third-party smart device usage data to identify behavioral patterns that could support product strategy and marketing decisions for the Bellabeat Time smartwatch.
 
 ---
 
@@ -51,7 +51,7 @@ This dataset is suitable for exploratory analysis but has limitations related to
 ## Tools Used
 
 - **SQL (BigQuery)** – data cleaning and transformation  
-- **R (tidyverse, ggplot2)** – data visualization  
+- **R (tidyverse)** – data visualization  
 - **Spreadsheets** – initial inspection and validation  
 
 ---
