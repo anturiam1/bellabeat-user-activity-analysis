@@ -128,14 +128,14 @@ Conclusions should be interpreted as directional insights rather than definitive
 
 Full analysis and business recommendations available in:
 
-`reports/CASO PRÁCTICO BELLABEAT.pdf`
+`reports/bellabeat_report_es.pdf`
 
 ---
 
 ## Author
 
-**Andrés Mauricio Ruiz**  
-Finance Specialist transitioning into Data Analytics  
+**Andrés Mauricio Ruiz Anturi**  
+Finance Specialist & Data Analyst 
 
 **Skills demonstrated:**
 
